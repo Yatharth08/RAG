@@ -1,2 +1,16 @@
+# macOS
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+py-tf-env/
+
+# Data
+assets/*.pdf
+
+# Secrets
 .env
