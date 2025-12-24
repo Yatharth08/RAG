@@ -16,7 +16,7 @@ Large documents such as financial reports are difficult to query accurately usin
 - Modular, production-oriented architecture
 
 ## Architecture
-![alt text](image-1.png)
+![alt text](image.png)
 
 ## Tech Stack
 
