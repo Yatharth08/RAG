@@ -48,3 +48,18 @@ Metrics:
 - Answer Relevance: Does the answer address the question?
 
 Evaluation is performed using an LLM-based judge with structured JSON output.
+
+## Data
+
+Download the data manually from
+https://ir.thomsonreuters.com/news-releases/news-release-details/thomson-reuters-reports-third-quarter-2025-results
+
+## Installation
+1. pip install -r requirements.txt
+2. python -m nltk.downloader punkt
+3. Set environment variables:
+    OPENAI_API_KEY, HUGGING_FACE_KEY
+4. python main.py
+
+## Colab notebook
+https://colab.research.google.com/drive/11IFj2xU-qBO4f68o81Aj3t85QEKcJxgQ#scrollTo=SaBxcNXo8bBL
